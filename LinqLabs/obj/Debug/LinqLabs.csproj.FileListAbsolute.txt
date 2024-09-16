@@ -179,3 +179,26 @@ C:\Users\hiro\Desktop\作業\0913\0913\LinqLabs (Solution)\LinqLabs\obj\Debug\Li
 C:\Users\hiro\Desktop\作業\0913\0913\LinqLabs (Solution)\LinqLabs\obj\Debug\LinqLabs.csproj.Up2Date
 C:\Users\hiro\Desktop\作業\0913\0913\LinqLabs (Solution)\LinqLabs\obj\Debug\LinqLabs.exe
 C:\Users\hiro\Desktop\作業\0913\0913\LinqLabs (Solution)\LinqLabs\obj\Debug\LinqLabs.pdb
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\bin\Debug\LinqLabs.exe.config
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\bin\Debug\LinqLabs.exe
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\bin\Debug\LinqLabs.pdb
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\bin\Debug\EntityFramework.dll
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\bin\Debug\EntityFramework.xml
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\LinqLabs.csproj.AssemblyReference.cache
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\Starter.FrmHelloLinq.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\Starter.FrmLangForLINQ.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\Starter.FrmLINQ_To_XXX.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\Starter.FrmLINQ架構介紹_InsideLINQ.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\Starter.FrmLinq_To_Entity.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\LinqLabs.Properties.Resources.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\MyHomeWork.Frm作業_1.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\MyHomeWork.Frm作業_2.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\LinqLabs.作業.Frm作業_3.resources
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\LinqLabs.csproj.GenerateResource.cache
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\LinqLabs.csproj.CoreCompileInputs.cache
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\LinqLabs.csproj.Up2Date
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\LinqLabs.exe
+C:\Users\hiro\Desktop\LinqHw\0913\0913\LinqLabs\LinqLabs\obj\Debug\LinqLabs.pdb

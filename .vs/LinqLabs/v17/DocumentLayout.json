@@ -42,12 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 342,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -104,7 +100,7 @@
               "RelativeDocumentMoniker": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
               "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
               "RelativeToolTip": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T02:22:16.797Z",
               "EditorCaption": ""
@@ -141,7 +137,8 @@
               "RelativeToolTip": "LinqLabs\\1. FrmHelloLinq.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAWwEcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T03:47:43.772Z"
+              "WhenOpened": "2024-09-13T03:47:43.772Z",
+              "EditorCaption": ""
             }
           ]
         }
