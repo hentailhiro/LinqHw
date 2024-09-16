@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -27,7 +28,7 @@ namespace LinqLabs.作業
             students_scores = new List<Student>()
                                          {
                                             new Student{ Name = "aaa", Class = "CS_101", Chi = 80, Eng = 80, Math = 50, Gender = "Male" },
-                                            new Student{ Name = "SelectListEmp", Class = "CS_102", Chi = 80, Eng = 80, Math = 100, Gender = "Male" },
+                                            new Student{ Name = "bbb", Class = "CS_102", Chi = 80, Eng = 80, Math = 100, Gender = "Male" },
                                             new Student{ Name = "ccc", Class = "CS_101", Chi = 60, Eng = 50, Math = 75, Gender = "Female" },
                                             new Student{ Name = "ddd", Class = "CS_102", Chi = 80, Eng = 70, Math = 85, Gender = "Female" },
                                             new Student{ Name = "eee", Class = "CS_101", Chi = 80, Eng = 80, Math = 50, Gender = "Female" },
@@ -48,15 +49,17 @@ namespace LinqLabs.作業
             // 找出 前面三個 的學員所有科目成績					
             // 找出 後面兩個 的學員所有科目成績					
 
-            // 找出 Name 'aaa','SelectListEmp','ccc' 的學員國文英文科目成績						
+            // 找出 Name 'aaa','bbb','ccc' 的學員國文英文科目成績						
 
-            // 找出學員 'SelectListEmp' 的成績	                          
+            // 找出學員 'bbb' 的成績	                          
 
-            // 找出除了 'SelectListEmp' 學員的學員的所有成績 ('SelectListEmp' 退學)	
+            // 找出除了 'bbb' 學員的學員的所有成績 ('bbb' 退學)	
 
-            // 找出 'aaa', 'SelectListEmp' 'ccc' 學員 國文數學兩科 科目成績  |				
+            // 找出 'aaa', 'bbb' 'ccc' 學員 國文數學兩科 科目成績  |				
             // 數學不及格 ... 是誰 
             #endregion
+
+            #region 學生搜尋
 
             var Count = students_scores.Select(student => new
             {
@@ -65,6 +68,7 @@ namespace LinqLabs.作業
                 student.Eng,
                 student.Math
             }).Count();
+            
 
 
             //前三個
@@ -84,9 +88,9 @@ namespace LinqLabs.作業
                     student.Eng,
                     student.Math
                 });
-            //找出 Name 'aaa','SelectListEmp','ccc' 的學員國文英文科目成績
+            //找出 Name 'aaa','bbb','ccc' 的學員國文英文科目成績
 
-            var names = new[] { "aaa", "SelectListEmp", "ccc" };
+            var names = new[] { "aaa", "bbb", "ccc" };
 
             var selectedStudents = from student in students_scores
                                    where names.Contains(student.Name)
@@ -108,9 +112,9 @@ namespace LinqLabs.作業
             });
 
 
-            //找出找出學員 'SelectListEmp' 的成績
+            //找出找出學員 'bbb' 的成績
 
-            var bbbScore = students_scores.Where(student => student.Name == "SelectListEmp").
+            var bbbScore = students_scores.Where(student => student.Name == "bbb").
                 Select(student => new
                 {
                     student.Name,
@@ -122,7 +126,7 @@ namespace LinqLabs.作業
 
             // 找出除了 'SelectListEmp' 學員的學員的所有成績 ('SelectListEmp' 退學)	
             var existbbb = from student in students_scores
-                           where student.Name != "SelectListEmp"
+                           where student.Name != "bbb"
                            select new
                            {
                                student.Name,
@@ -131,7 +135,7 @@ namespace LinqLabs.作業
                                student.Math
                            };
 
-            // 找出 'aaa', 'SelectListEmp' 'ccc' 學員 國文數學兩科 科目成績
+            // 找出 'aaa', 'bbb' 'ccc' 學員 國文數學兩科 科目成績
             var selectedabcsocre = from student in students_scores
                                    where names.Contains(student.Name)
                                    select new
@@ -163,11 +167,36 @@ namespace LinqLabs.作業
                 student.Eng,
                 student.Math
             });
+            #endregion
+
+            var classscores = students_scores
+            .GroupBy(f => f.Class)
+            .OrderBy(g => g.Key)
+            .Select(g => new
+            {
+                Class = g.Key,
+                Files = g.ToList()
+            })
+            .ToList();
+            treeView1.Nodes.Clear();
+            foreach (var group in classscores)
+            {
+                TreeNode node = treeView1.Nodes.Add(group.Class);
+
+
+                foreach (var item in group.Files)
+                {
+
+                    node.Nodes.Add($"{item.Name.ToString()}/{item.Gender.ToString()}/國{item.Chi.ToString()}/英{item.Eng.ToString()}/數{item.Math.ToString()}");
+
+                }
+            }
 
         }
 
         private void button37_Click(object sender, EventArgs e)
         {
+            #region 學生搜尋
             //個人 sum, min, max, avg
             var studentScores = students_scores
             .Select(student => new
@@ -198,6 +227,41 @@ namespace LinqLabs.作業
                 Sum = student.Chi + student.Eng + student.Math
             })
             .OrderByDescending(s => s.Sum);
+            #endregion
+            var studentscores = students_scores
+               .Select(student => new
+               {
+                   student.Name,
+                   student.Class,
+                   student.Gender,
+                   student.Chi,
+                   student.Eng,
+                   student.Math,
+                   Avg = new[] { student.Chi, student.Eng, student.Math }.Average()
+               })
+               .GroupBy(f => new { f.Name, f.Avg })
+               .OrderByDescending(s => s.Key.Avg)
+               .Select(g => new
+               {
+                   g.Key.Name,
+                   g.Key.Avg,
+                   Files = g.ToList()
+               })
+               .ToList();
+            treeView1.Nodes.Clear();
+            foreach (var group in studentscores)
+            {
+                TreeNode node = treeView1.Nodes.Add($"{group.Name} Avg:{group.Avg:n}");
+
+                foreach (var item in group.Files)
+                {
+
+                    node.Nodes.Add($"{item.Gender.ToString()}");
+                    node.Nodes.Add($"國{item.Chi.ToString()}");
+                    node.Nodes.Add($"英{item.Eng.ToString()}");
+                    node.Nodes.Add($"數{item.Math.ToString()}");
+                }
+            }
 
         }
 
@@ -495,7 +559,7 @@ namespace LinqLabs.作業
             {
                 g.Key.EmployeeID,
                 Name = g.Key.FirstName + "  " + g.Key.LastName,
-                TotalSales = g.Sum(ed => ed.detail.UnitPrice * ed.detail.Quantity * (decimal)(1 - ed.detail.Discount))  // 計算總銷售金額
+                TotalSales = g.Sum(ed => ed.detail.UnitPrice * ed.detail.Quantity * (decimal)(1 - ed.detail.Discount))
             })
             .OrderByDescending(r => r.TotalSales)
             .Take(5)
@@ -511,14 +575,14 @@ namespace LinqLabs.作業
             //         employee.EmployeeID,
             //         employee.FirstName,
             //         employee.LastName,
-            //         TotalSales = (detail.UnitPrice * detail.Quantity * (decimal)(1 - detail.Discount)) // 使用 double 替代 decimal
+            //         TotalSales = (detail.UnitPrice * detail.Quantity * (decimal)(1 - detail.Discount)) 
             //     })))
             //      .GroupBy(w => new { w.EmployeeID, w.FirstName, w.LastName })
             //       .Select(g => new
             //       {
             //           g.Key.EmployeeID,
             //           Name = g.Key.FirstName + " " + g.Key.LastName,
-            //           TotalSales = g.Sum(y => y.TotalSales) // 計算總銷售金額
+            //           TotalSales = g.Sum(y => y.TotalSales) 
             //       })
             //        .OrderByDescending(r => r.TotalSales)
             //         .Take(5)

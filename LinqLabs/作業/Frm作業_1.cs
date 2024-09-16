@@ -110,7 +110,7 @@ namespace MyHomeWork
             System.IO.FileInfo[] files = dir.GetFiles();
 
             //files[0].CreationTime
-            this.dataGridView1.DataSource = files;
+            this.dataGridView1.DataSource = files.ToList();
 
         }
 
@@ -133,31 +133,9 @@ namespace MyHomeWork
             this.dataGridView1.DataSource = nwDataSet1.Orders.ToList();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(@"c:\windows");
+    
 
-            System.IO.FileInfo[] files = dir.GetFiles();
-
-            this.lblMaster.Text = "2017 Files";
-            IEnumerable<System.IO.FileInfo> q = files
-                .Where(finfo => finfo.CreationTime.Year == 2024)
-                .OrderBy(finfo => finfo.CreationTime);
-            var newinfo = q.ToList();
-            this.dataGridView1.DataSource = newinfo;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.lblMaster.Text = "Big Files";
-            System.IO.DirectoryInfo dirs = new System.IO.DirectoryInfo(@"c:\windows");
-            FileInfo[] files = dirs.GetFiles();
-
-            var q = from f in files
-                    where f.Length > 2000
-                    select f;
-            this.dataGridView1.DataSource = q.ToList();
-        }
+    
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -204,14 +182,22 @@ namespace MyHomeWork
         {
             this.lblDetails.Text = "Order details";
 
+            if (this.dataGridView1.DataSource is IList<System.IO.FileInfo>)
+            {
+                this.lblDetails.Text = "File details";
+                
+            }
+            else
+            {
 
-            var OrderID = (int)dataGridView1.Rows[e.RowIndex].Cells["orderid"].Value;
+                var OrderID = (int)dataGridView1.Rows[e.RowIndex].Cells["orderid"].Value;
 
-            var q = from o in this.nwDataSet1.Order_Details
+                var q = from o in this.nwDataSet1.Order_Details
                     where o.OrderID == OrderID
                     select o;
 
-            this.dataGridView2.DataSource = q.CopyToDataTable();
+                this.dataGridView2.DataSource = q.CopyToDataTable();
+            }
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -227,6 +213,32 @@ namespace MyHomeWork
 
             this.bindingSource1.DataSource = q.ToList();
             this.dataGridView1.DataSource = this.bindingSource1;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(@"c:\windows");
+
+            System.IO.FileInfo[] files = dir.GetFiles();
+
+            this.lblMaster.Text = "2017 Files";
+            IEnumerable<System.IO.FileInfo> q = files
+                .Where(finfo => finfo.CreationTime.Year == 2017)
+                .OrderBy(finfo => finfo.CreationTime);
+            var newinfo = q.ToList();
+            this.dataGridView1.DataSource = newinfo;
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            this.lblMaster.Text = "Big Files";
+            System.IO.DirectoryInfo dirs = new System.IO.DirectoryInfo(@"c:\windows");
+            FileInfo[] files = dirs.GetFiles();
+
+            var q = from f in files
+                where f.Length > 2000
+                select f;
+            this.dataGridView1.DataSource = q.ToList();
         }
     }
 }

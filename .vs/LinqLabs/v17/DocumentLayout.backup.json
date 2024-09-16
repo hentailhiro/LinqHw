@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|solutionrelative:LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|solutionrelative:linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\EFAadventure2019\\adv2019.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqLabs\\EFAadventure2019\\adv2019.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\EFAadventure2019\\adv2019.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|solutionrelative:LinqLabs\\EFAadventure2019\\adv2019.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|c:\\users\\hiro\\desktop\\linqhw\\0913\\0913\\linqlabs\\linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|solutionrelative:linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|solutionrelative:linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|solutionrelative:linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:linqlabs\\\u4F5C\u696D\\frm\u4F5C\u696D_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\1. FrmHelloLinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqLabs\\1. FrmHelloLinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C24A6A-32D9-41E1-B469-80BDFD85D5D5}|LinqLabs\\LinqLabs.csproj|solutionrelative:LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,103 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 342,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "adv2019.edmx",
+              "Title": "adv2019.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\EFAadventure2019\\adv2019.edmx",
               "RelativeDocumentMoniker": "LinqLabs\\EFAadventure2019\\adv2019.edmx",
-              "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\EFAadventure2019\\adv2019.edmx",
-              "RelativeToolTip": "LinqLabs\\EFAadventure2019\\adv2019.edmx",
+              "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\EFAadventure2019\\adv2019.edmx [Diagram1]",
+              "RelativeToolTip": "LinqLabs\\EFAadventure2019\\adv2019.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-09-16T08:23:08.25Z"
+              "WhenOpened": "2024-09-16T08:23:08.25Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Frm\u4F5C\u696D_1.cs",
               "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs",
               "RelativeDocumentMoniker": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs",
               "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs",
               "RelativeToolTip": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAewNYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T07:31:58.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Frm\u4F5C\u696D_1.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs",
               "RelativeDocumentMoniker": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs",
-              "ToolTip": "C:\\Users\\hiro\\Desktop\\\u4F5C\u696D\\0913\\0913\\LinqLabs (Solution)\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "..\\..\\..\\..\\\u4F5C\u696D\\0913\\0913\\LinqLabs (Solution)\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs [\u8A2D\u8A08]",
+              "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:31:57.166Z"
+              "WhenOpened": "2024-09-16T07:31:57.166Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Frm\u4F5C\u696D_3.cs",
               "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs",
               "RelativeDocumentMoniker": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs",
               "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs",
               "RelativeToolTip": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs",
-              "ViewState": "AQIAAOgBAAAAAAAAAAAAAOoBAAAdAAAA",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAuwAcBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T07:22:31.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Frm\u4F5C\u696D_2.cs",
               "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
               "RelativeDocumentMoniker": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
               "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
               "RelativeToolTip": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJAAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T02:22:16.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T02:22:16.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm\u4F5C\u696D_3.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs",
+              "RelativeDocumentMoniker": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs",
+              "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:40:33.15Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Frm\u4F5C\u696D_3.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs",
-              "RelativeDocumentMoniker": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u5C0D\u7167\u7D44linq\\0913\\LinqLabs (Solution)\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\User\\Desktop\\\u5C0D\u7167\u7D44linq\\0913\\LinqLabs (Solution)\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_3.cs [\u8A2D\u8A08]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:40:33.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Frm\u4F5C\u696D_2.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
               "RelativeDocumentMoniker": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u5C0D\u7167\u7D44linq\\0913\\LinqLabs (Solution)\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\User\\Desktop\\\u5C0D\u7167\u7D44linq\\0913\\LinqLabs (Solution)\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs [\u8A2D\u8A08]",
+              "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "LinqLabs\\\u4F5C\u696D\\Frm\u4F5C\u696D_2.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T02:17:58.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "1. FrmHelloLinq.cs",
-              "DocumentMoniker": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\1. FrmHelloLinq.cs",
-              "RelativeDocumentMoniker": "LinqLabs\\1. FrmHelloLinq.cs",
-              "ToolTip": "C:\\Users\\hiro\\Desktop\\LinqHw\\0913\\0913\\LinqLabs\\LinqLabs\\1. FrmHelloLinq.cs",
-              "RelativeToolTip": "LinqLabs\\1. FrmHelloLinq.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAWwEcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T03:47:43.772Z",
-              "EditorCaption": ""
             }
           ]
         }

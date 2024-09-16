@@ -143,15 +143,15 @@ namespace MyHomeWork
         private void button10_Click(object sender, EventArgs e)
         {
             string seasonText = comboBox2.SelectedText;
-    
-            
+
+
             int startMonth, endMonth;
 
-            
+
             switch (seasonText)
             {
                 case "第一季":
-                    startMonth = 1;  
+                    startMonth = 1;
                     endMonth = 3;
                     break;
                 case "第二季":
@@ -171,8 +171,8 @@ namespace MyHomeWork
                     endMonth = 12;
                     break;
             }
-           
-           
+
+
 
             var qDatePick =
                from pp in _dbContext.ProductPhotoes
@@ -197,24 +197,17 @@ namespace MyHomeWork
             this.dataGridView1.DataSource = qDatePick.ToList();
         }
 
-      
+
 
         private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             byte[] photo = (byte[])dataGridView1.Rows[e.RowIndex].Cells["LargePhoto"].Value;
-
-
-
-
-
-
             MemoryStream ms = new MemoryStream(photo);
-
             Image img = Image.FromStream(ms);
             this.pictureBox1.Image = img;
         }
 
-       
+
 
     }
 }
