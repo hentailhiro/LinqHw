@@ -144,25 +144,25 @@ namespace MyHomeWork
         {
             string seasonText = comboBox2.Text;
     
-            // Initialize the startMonth and endMonth variables
+            
             int startMonth, endMonth;
 
-            // Determine the start and end months based on the text of the combo box
+            
             switch (seasonText)
             {
-                case "First Season":
-                    startMonth = 1;  // Adjust these values according to your requirements
+                case "第一季":
+                    startMonth = 1;  
                     endMonth = 3;
                     break;
-                case "Second Season":
+                case "第二季":
                     startMonth = 4;
                     endMonth = 6;
                     break;
-                case "Third Season":
+                case "第三季":
                     startMonth = 7;
                     endMonth = 9;
                     break;
-                case "Fourth Season":
+                case "第四季":
                     startMonth = 10;
                     endMonth = 12;
                     break;
