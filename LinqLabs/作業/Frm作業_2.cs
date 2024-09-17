@@ -142,7 +142,7 @@ namespace MyHomeWork
 
         private void button10_Click(object sender, EventArgs e)
         {
-            string seasonText = comboBox2.SelectedText;
+            string seasonText = comboBox2.Text.ToString();
 
 
             int startMonth, endMonth;
