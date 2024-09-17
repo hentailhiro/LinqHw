@@ -68,7 +68,7 @@ namespace LinqLabs.作業
                 student.Eng,
                 student.Math
             }).Count();
-            
+
 
 
             //前三個
@@ -347,36 +347,7 @@ namespace LinqLabs.作業
             }
         }
 
-        private void button38_Click(object sender, EventArgs e)
-        {
-            System.IO.DirectoryInfo dirs = new System.IO.DirectoryInfo(@"c:\windows");
-            FileInfo[] files = dirs.GetFiles();
 
-            var groupedFiles = files
-            .GroupBy(f => BigFile(f))
-            .Select(g => new
-            {
-                大小 = g.Key,
-                Files = g.OrderByDescending(f => f.Length)
-            })
-            .ToList();
-            foreach (var group in groupedFiles)
-            {
-                TreeNode node = treeView1.Nodes.Add(group.大小.ToString());
-
-
-                foreach (var item in group.Files)
-                {
-
-
-
-                }
-
-
-
-            }
-
-        }
 
         private object BigFile(FileInfo f)
         {
@@ -394,45 +365,6 @@ namespace LinqLabs.作業
             }
 
         }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-            System.IO.DirectoryInfo dirs = new System.IO.DirectoryInfo(@"c:\windows");
-            FileInfo[] files = dirs.GetFiles();
-            var groupedFiles = files
-           .GroupBy(f => f.CreationTime.Year)
-           .Select(g => new
-           {
-               年份 = g.Key,
-               Files = g.ToList()
-           })
-           .OrderBy(g => g.年份)
-           .ToList();
-
-            foreach (var group in groupedFiles)
-            {
-
-
-
-                string yearNodeText = group.年份.ToString();
-                TreeNode node = treeView1.Nodes.Add(yearNodeText);
-
-                foreach (var item in group.Files)
-                {
-
-
-
-
-                    node.Nodes.Add(item.Name.ToString() + "  容量   " + item.Length.ToString() + "   Byte");
-                }
-
-
-            }
-
-        }
-
-
         private void button8_Click(object sender, EventArgs e)
         {
 
@@ -645,6 +577,64 @@ namespace LinqLabs.作業
         private void Frm作業_3_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button38_Click_1(object sender, EventArgs e)
+        {
+            System.IO.DirectoryInfo dirs = new System.IO.DirectoryInfo(@"c:\windows");
+            FileInfo[] files = dirs.GetFiles();
+
+            var groupedFiles = files
+            .GroupBy(f => BigFile(f))
+            .Select(g => new
+            {
+                大小 = g.Key,
+                Files = g.OrderByDescending(f => f.Length)
+            })
+            .ToList();
+            this.treeView1.Nodes.Clear();
+            foreach (var group in groupedFiles)
+            {
+                TreeNode node = treeView1.Nodes.Add(group.大小.ToString());
+
+
+                foreach (var item in group.Files)
+                {
+
+
+                    node.Nodes.Add(item.Name.ToString() + "  容量   " + item.Length.ToString() + "   Byte");
+                }
+
+
+
+            }
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+
+            System.IO.DirectoryInfo dirs = new System.IO.DirectoryInfo(@"c:\windows");
+            FileInfo[] files = dirs.GetFiles();
+
+            var groupedFiles = files
+            .GroupBy(f => BigFile(f))
+            .OrderBy(g => g.Key)
+            .Select(g => new
+            {
+                大小 = g.Key,
+                Files = g.OrderByDescending(f => f.Length)
+            })
+            .ToList();
+            treeView1.Nodes.Clear();
+            foreach (var group in groupedFiles)
+            {
+                TreeNode node = treeView1.Nodes.Add(group.大小.ToString());
+
+                foreach (var item in group.Files)
+                {
+                    node.Nodes.Add(item.Name.ToString() + "  容量   " + item.Length.ToString() + "   Byte");
+                }
+            }
         }
     }
 
