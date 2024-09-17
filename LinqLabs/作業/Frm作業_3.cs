@@ -565,6 +565,9 @@ namespace LinqLabs.作業
             .Take(5)
             .ToList();
 
+
+            //嘗試用selectmany修復中
+
             //var topSalespeople = this._dbContext.Employees.AsEnumerable()
             //.SelectMany(employee => this._dbContext.Orders
             //  .Where(order => order.EmployeeID == employee.EmployeeID)
